@@ -1,0 +1,23 @@
+{
+  "name": "greenseer-graphql",
+  "version": "0.1.1",
+  "description": "greenseer is magical auto generate tool for graphql",
+  "bin": {
+    "greenseer-graphql": "bin/index.js"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "author": "Eugene Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.5.3",
+    "readline-sync": "^1.4.9",
+    "sequelize": "^4.37.6"
+  }
+}
