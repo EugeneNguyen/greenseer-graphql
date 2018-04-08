@@ -1,9 +1,10 @@
 {
   "name": "greenseer-graphql",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "greenseer is magical auto generate tool for graphql",
   "bin": {
-    "greenseer-graphql": "bin/index.js"
+    "greenseer-graphql": "bin/index.js",
+    "gsg": "bin/index.js"
   },
   "main": "./lib/index.js",
   "directories": {
