@@ -12,6 +12,9 @@ if (process.argv.length > 2) {
     case 'generate':
       require('./generate');
       break;
+    case 'model': 
+      require('./model');
+      break;
   }
 } else {
   helper('all');
